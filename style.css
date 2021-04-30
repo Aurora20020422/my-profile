@@ -1,0 +1,141 @@
+/* CSS Document */
+
+body {
+    width: 80%;
+    background-color: #CC6666;
+    line-height: 24px;
+    font-size: 13px;
+    margin: 0px auto
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.5)
+}
+
+.fls {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.rls {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rw {
+    width: 100%;
+}
+
+
+/* 
+.nav {
+    background: #CC3333
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 60px
+}
+
+.nav li a {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 30px
+} */
+
+.end {
+    background: #CC0000;
+    color: #fff;
+    padding: 11px 0;
+    font-size: 20px;
+    text-align: center
+}
+
+.c li {
+    margin-top: 30px;
+    width: 33%;
+    float: left;
+    text-align: center
+}
+
+.c li img {
+    max-width: 90%
+}
+
+.gd {
+    background: #CC0000;
+    color: #fff;
+    padding: 5px 10px
+}
+
+.dl2-out {
+    background: #ffe2b0;
+}
+
+.dl2 {
+    width: 520px;
+    font-size: 21px;
+    margin: 0 auto;
+    padding: 60px 0
+}
+
+.dl2 span {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.dl2 div {
+    margin: 10px 0
+}
+
+.dl2 input {
+    padding: 7px 10px;
+    border: #996666 solid 1px;
+}
+
+#submit {
+    width: 240px;
+    background: #CC3333;
+    color: #fff
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+    .c {
+        margin-top: 20px;
+    }
+    .c li {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        width: 100%;
+    }
+    .dl2 {
+        width: 100%;
+    }
+}
